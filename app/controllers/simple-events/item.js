@@ -112,6 +112,11 @@ export default Ember.Controller.extend({
         return json.term;
       });
     },
-    changeDate(){}
+    changeDate(record, field, dates) {
+      if (!dates || !dates[0]) {
+        return;
+      }
+      this.get('model.record').set(field, dates[0]);
+    }
   }
 });
