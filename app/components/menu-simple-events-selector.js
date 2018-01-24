@@ -13,7 +13,7 @@ export default Ember.Component.extend({
   recentPages: null,
 
   didInsertElement() {
-    return this.get('store').query('event', {
+    return this.get('store').query('simple-event', {
       limit: 8,
       order: 'createdAt DESC'
     }).then( (recentPages)=> {
