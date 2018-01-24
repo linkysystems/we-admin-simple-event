@@ -1,6 +1,6 @@
 {
   "name": "we-admin-simple-event",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "We.js admin event to manage resources from we-plugin-simple-event",
   "keywords": [
