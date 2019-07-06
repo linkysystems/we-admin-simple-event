@@ -5,7 +5,7 @@ TODO!
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd we-admin-news`
+* `cd we-admin-simple-event`
 * `npm install`
 
 ## Running

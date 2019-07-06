@@ -27,10 +27,7 @@
             <div class="form-group">
               <label>Dados do evento:</label>
               <p class="help-block">Descreva o evento com o máximo de informações. Esse texto aparece na página de informações do evento.</p>
-              {{tinymce-editor
-                options=editorOptions
-                value=model.record.body
-              }}
+              {{field-text-editor value=model.record.body}}
             </div>
           </fieldset>
         </div>
